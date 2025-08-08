@@ -94,7 +94,7 @@ jobs:
         git checkout "${PR_BRANCH}"
         ./gradlew --build-cache --info --stacktrace spotlessApply || exit 1
         git diff --exit-code && exit 1
-        git config user.name "GitHub GTNH Actions"
+        git config user.name "GitHub GT5uO Actions"
         git config user.email "<>"
         git switch -c "${FIXED_BRANCH}"
         git commit -am "spotlessApply"
@@ -125,8 +125,8 @@ jobs:
     - name: Test no errors reported during server run
       if: ${{ !inputs.client-only }}
       run: |
-        chmod +x .gtnh-workflows/scripts/test_no_error_reports
-        .gtnh-workflows/scripts/test_no_error_reports
+        chmod +x .gt5uo-workflows/scripts/test_no_error_reports
+        .gt5uo-workflows/scripts/test_no_error_reports
 
     - name: Test no prerelease dependencies used
       run: |
