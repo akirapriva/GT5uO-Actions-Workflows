@@ -37,8 +37,8 @@ jobs:
     - name: Checkout workflows repo
       uses: actions/checkout@v4
       with:
-        repository: GTNewHorizons/GTNH-Actions-Workflows
-        path: .gtnh-workflows
+        repository: akirapriva/GT5uO-Actions-Workflows
+        path: .gt5uo-workflows
         fetch-depth: 0
 
     - name: Set up JDK versions
