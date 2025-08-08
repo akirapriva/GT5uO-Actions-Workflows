@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: Label requires reviews
-        uses: GTNewHorizons/label-requires-reviews-action@master
+        uses: GT5uO/label-requires-reviews-action@master
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
