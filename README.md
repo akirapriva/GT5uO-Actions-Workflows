@@ -1,4 +1,4 @@
-# Reusable workflows for GTNH repos
+# Reusable workflows for GT5uO repos
 
 Usage:
 ```yaml
